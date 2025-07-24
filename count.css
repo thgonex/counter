@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url("./IMG_0746.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+  background-attachment: fixed;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+.number {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 151, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.2s;
+    box-shadow: 2px 3px 8px rgb(248, 248, 248);
+}
+
+@media (hover: hover){
+    .btn:hover{
+        opacity: 80%;
+    }
+
+    .btn:active{
+        transform: scale(0.9);
+    }
+}
